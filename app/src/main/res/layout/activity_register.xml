@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center_horizontal"
+    tools:context=".Register">
+
+    <ImageView
+        android:layout_width="409dp"
+        android:layout_height="295dp"
+        android:layout_gravity="center"
+        android:src="@drawable/fist" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:textSize="45dp"
+        android:textStyle="bold"
+        android:textColor="#673AB7"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        />
+
+
+    <EditText
+        android:layout_width="350dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/text_raduis"
+        android:drawableStart="@drawable/ic_baseline_email_24"
+        android:text="Email"
+        android:textColor="#673AB7"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="20dp"
+
+        />
+
+    <EditText
+        android:layout_width="350dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/text_raduis"
+        android:drawableStart="@drawable/ic_baseline_lock_24"
+        android:paddingLeft="20dp"
+        android:text="Password"
+        android:textColor="#673AB7"
+        android:textStyle="bold"
+
+        />
+    <EditText
+        android:layout_width="350dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/text_raduis"
+        android:drawableStart="@drawable/ic_baseline_lock_24"
+        android:text="Conform Password"
+        android:textColor="#673AB7"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="20dp"
+
+        />
+
+    <Button
+        android:id="@+id/btnback"
+        android:layout_width="350dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/round_btn"
+        android:text="Register"
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/signin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:text="Already have an account? Sign in"
+        android:textColor="#673AB7"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:letterSpacing="0.03"/>
+
+
+</LinearLayout>
